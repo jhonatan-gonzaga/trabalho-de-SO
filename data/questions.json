@@ -1,0 +1,77 @@
+[
+  {
+    "id": "kernel",
+    "text": "Você prefere um sistema com kernel modular e aberto ou um modelo híbrido mais padronizado?",
+    "options": [
+      {"id": "modular", "text": "Kernel modular e aberto (maior controle técnico)", "impact": {"windows": 0, "linux": 3, "macos": 1, "android": 1}},
+      {"id": "hibrido", "text": "Kernel híbrido padronizado e estável", "impact": {"windows": 3, "linux": 0, "macos": 2, "android": 1}}
+    ]
+  },
+  {
+    "id": "seguranca",
+    "text": "Em relação à segurança, você prefere permissões e controle direto ou isolamento automatizado do sistema?",
+    "options": [
+      {"id": "manual", "text": "Controle manual com permissões e usuários (Unix/Root)", "impact": {"windows": 0, "linux": 3, "macos": 2, "android": 1}},
+      {"id": "automatica", "text": "Segurança automática e integrada (UAC, sandboxing, ACLs)", "impact": {"windows": 3, "linux": 1, "macos": 2, "android": 2}}
+    ]
+  },
+  {
+    "id": "software",
+    "text": "Você utiliza softwares comerciais amplamente difundidos (MS Office, Adobe, AutoCAD)?",
+    "options": [
+      {"id": "sim", "text": "Sim, preciso de alta compatibilidade com programas comerciais", "impact": {"windows": 3, "linux": 0, "macos": 2, "android": 0}},
+      {"id": "nao", "text": "Não, posso usar alternativas livres", "impact": {"windows": 0, "linux": 3, "macos": 1, "android": 1}}
+    ]
+  },
+  {
+    "id": "customizacao",
+    "text": "Você deseja liberdade total para modificar o sistema (interface, kernel, pacotes)?",
+    "options": [
+      {"id": "alta", "text": "Sim, quero personalizar tudo (nível técnico avançado)", "impact": {"windows": 0, "linux": 3, "macos": 0, "android": 2}},
+      {"id": "baixa", "text": "Prefiro um sistema pronto para uso, sem ajustes complexos", "impact": {"windows": 2, "linux": 0, "macos": 2, "android": 2}}
+    ]
+  },
+  {
+    "id": "desempenho",
+    "text": "Seu foco é em desempenho bruto, estabilidade ou portabilidade?",
+    "options": [
+      {"id": "desempenho", "text": "Desempenho bruto e otimização de recursos", "impact": {"windows": 2, "linux": 3, "macos": 1, "android": 1}},
+      {"id": "estabilidade", "text": "Estabilidade e integração de hardware e software", "impact": {"windows": 2, "linux": 1, "macos": 3, "android": 1}},
+      {"id": "portabilidade", "text": "Portabilidade e compatibilidade entre dispositivos", "impact": {"windows": 1, "linux": 1, "macos": 2, "android": 3}}
+    ]
+  },
+  {
+    "id": "ambiente",
+    "text": "Em qual ambiente você pretende usar o sistema operacional?",
+    "options": [
+      {"id": "corporativo", "text": "Ambiente corporativo ou educacional padronizado", "impact": {"windows": 3, "linux": 1, "macos": 2, "android": 0}},
+      {"id": "servidor", "text": "Servidores, redes ou programação", "impact": {"windows": 1, "linux": 3, "macos": 1, "android": 0}},
+      {"id": "criativo", "text": "Design, mídia e produtividade integrada", "impact": {"windows": 1, "linux": 0, "macos": 3, "android": 0}},
+      {"id": "mobilidade", "text": "Mobilidade e uso em dispositivos portáteis", "impact": {"windows": 0, "linux": 1, "macos": 1, "android": 3}}
+    ]
+  },
+  {
+    "id": "suporte",
+    "text": "O suporte oficial e a facilidade de manutenção são importantes para você?",
+    "options": [
+      {"id": "sim", "text": "Sim, prefiro um sistema com suporte técnico estruturado", "impact": {"windows": 3, "linux": 0, "macos": 2, "android": 2}},
+      {"id": "nao", "text": "Não, prefiro comunidades e fóruns independentes", "impact": {"windows": 0, "linux": 3, "macos": 1, "android": 1}}
+    ]
+  },
+  {
+    "id": "licenca",
+    "text": "Você dá importância ao fato do sistema ser livre (open source)?",
+    "options": [
+      {"id": "sim", "text": "Sim, quero liberdade de código e uso gratuito", "impact": {"windows": 0, "linux": 3, "macos": 0, "android": 2}},
+      {"id": "nao", "text": "Não, priorizo praticidade e suporte oficial", "impact": {"windows": 3, "linux": 0, "macos": 2, "android": 1}}
+    ]
+  },
+  {
+    "id": "jogos",
+    "text": "Jogos e compatibilidade com hardware gráfico são uma prioridade?",
+    "options": [
+      {"id": "sim", "text": "Sim, uso para jogos e multimídia avançada", "impact": {"windows": 3, "linux": 1, "macos": 1, "android": 1}},
+      {"id": "nao", "text": "Não, o foco é produtividade ou servidores", "impact": {"windows": 0, "linux": 2, "macos": 2, "android": 0}}
+    ]
+  }
+]

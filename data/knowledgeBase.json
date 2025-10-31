@@ -1,0 +1,22 @@
+{
+  "windows": {
+    "architecture": "O Windows utiliza um kernel híbrido NT, que combina características de microkernel e monolítico. Isso permite modularidade sem sacrificar desempenho. O núcleo gerencia subsistemas como o Executive, Kernel, HAL e subsistemas de usuário (Win32, POSIX). Essa estrutura facilita compatibilidade retroativa com softwares antigos e amplia suporte a drivers.",
+    "security": "O modelo de segurança baseia-se em ACLs (Access Control Lists), tokens de acesso e autenticação via Kerberos/NTLM. O Windows também implementa o UAC (User Account Control) para limitar privilégios, e tecnologias como BitLocker e VBS/HVCI, que isolam processos críticos em ambientes virtualizados.",
+    "useCases": "Amplamente usado em ambientes corporativos e domésticos. Ideal para jogos (graças ao DirectX), softwares comerciais (Adobe, AutoCAD, Office) e ecossistemas com hardware proprietário."
+  },
+  "linux": {
+    "architecture": "O Linux adota um kernel monolítico modular, em que todos os serviços essenciais (gerenciamento de processos, drivers, sistema de arquivos e rede) rodam no espaço do kernel. Módulos podem ser carregados dinamicamente, tornando o sistema altamente personalizável. Sua arquitetura aberta e comunidade ativa facilitam otimizações específicas.",
+    "security": "Baseado em permissões Unix (rwx) e políticas de usuários e grupos. O Linux oferece mecanismos de controle avançado, como SELinux e AppArmor, que aplicam políticas de Mandatory Access Control (MAC). Ferramentas adicionais como iptables/nftables e fail2ban reforçam o isolamento e a segurança em servidores.",
+    "useCases": "Excelente para servidores, desenvolvimento e usuários técnicos. Favorece customização, estabilidade e eficiência, com versões adaptadas para desktops leves e sistemas embarcados."
+  },
+  "macos": {
+    "architecture": "O macOS utiliza o kernel XNU (X is Not Unix), que combina o microkernel Mach e partes do BSD. Isso permite isolamento eficiente de processos e alto desempenho. O sistema é projetado para integração total entre hardware e software, priorizando estabilidade e otimização energética.",
+    "security": "O modelo de segurança se apoia em sandboxing, Gatekeeper, e permissões herdadas do Unix BSD. O FileVault implementa criptografia completa de disco. O sistema impõe assinaturas digitais obrigatórias e controles de integridade para prevenir modificações indevidas.",
+    "useCases": "Ideal para design, produtividade e uso profissional. Perfeito para usuários integrados ao ecossistema Apple (iPhone, iPad, iCloud)."
+  },
+  "android": {
+    "architecture": "O Android é baseado em um kernel Linux modificado, com uma camada intermediária chamada Android Runtime (ART) que executa bytecode otimizado. Ele inclui bibliotecas nativas (Bionic, OpenGL, SQLite) e frameworks Java para aplicativos. Essa arquitetura modular garante portabilidade em dispositivos ARM e x86.",
+    "security": "Emprega sandboxing por aplicativo, permissões granulares em tempo de execução e verificação contínua via Google Play Protect. O SELinux também é habilitado por padrão desde o Android 5.0, reforçando o isolamento de processos e serviços.",
+    "useCases": "Perfeito para mobilidade, integração com serviços Google e dispositivos portáteis. Amplo suporte de hardware e customização por fabricantes."
+  }
+}
