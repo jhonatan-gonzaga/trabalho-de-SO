@@ -6,8 +6,8 @@
 👨‍💻 Autores (Equipe):
 * **Jeziel Monteiro**
 * **Jhonatan Gonzaga**
-* **Caio Sobral**
-* **Brainer**
+* **kaio Sobral**
+* **Brayner Santana**
 
 
 
